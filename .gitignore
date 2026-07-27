@@ -1,0 +1,18 @@
+# Versions outside the published 0.3.x series
+/StickMultiKit_v0.1.0-Alpha/
+/StickMultiKit_v0.1.1-Alpha/
+/StickMultiKit_v0.2.0-Alpha/
+/StickMultiKit_v0.2.1-Alpha/
+
+# Release archives
+/*.zip
+/*.7z
+/*.rar
+
+# Local editor and operating-system files
+/.idea/
+/.vscode/
+*.bak
+*.tmp
+Thumbs.db
+Desktop.ini

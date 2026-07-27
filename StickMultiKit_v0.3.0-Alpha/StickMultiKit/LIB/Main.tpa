@@ -1,0 +1,5 @@
+// LUA文件
+
+COPY ~%MOD_FOLDER%\LUA\ST_MTKIT.lua~ ~Override~
+COPY_EXISTING ~M_Stick.lua~ ~Override~
+	APPEND_FILE ~%MOD_FOLDER%\LUA\ToAppend.lua~

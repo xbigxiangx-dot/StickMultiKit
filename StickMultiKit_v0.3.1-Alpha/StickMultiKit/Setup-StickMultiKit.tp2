@@ -1,0 +1,17 @@
+
+BACKUP ~StickMultiKit\Backup~
+
+AUTHOR ~Stick~
+VERSION ~v0.3.1-Alpha~
+
+LANGUAGE	~Simplified Chinese~
+			~schinese~  
+			~%MOD_FOLDER%/Tra/schinese/Setup.tra~
+
+LANGUAGE	~English~
+			~english~
+			~%MOD_FOLDER%/Tra/english/Setup.tra~
+
+BEGIN @1 DESIGNATED 0
+REQUIRE_COMPONENT ~StickLuaFunctions.tp2~ ~0~ @100
+INCLUDE ~%MOD_FOLDER%\LIB\Main.tpa~

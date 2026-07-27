@@ -1,0 +1,70 @@
+# StickMultiKit Changelog
+
+v0.3.1-Alpha
+------------
+Requires StickLuaFunctions v0.8.1-Alpha.
+
+## Added
+- Added Simplified Chinese and English support to the installer
+
+
+v0.3.0-Alpha
+------------
+Requires StickLuaFunctions v0.8.1-Alpha.
+
+## Added
+- Opcodes and triggers can now correctly recognize the second and third kits
+
+
+v0.2.1-Alpha
+------------
+Requires StickLuaFunctions v0.8.1-Alpha.
+
+## Fixed
+- Fixed an issue where alignment restrictions from the second and third kits were not applied when creating a multiclass character with multiple kits
+- Fixed a potential compatibility issue with UI mods
+
+
+v0.2.0-Alpha
+------------
+Requires StickLuaFunctions v0.8.1-Alpha.
+
+## Added
+- Kits can now be selected when dual-classing
+
+
+v0.1.1-Alpha
+------------
+Requires StickLuaFunctions v0.8.1-Alpha.
+
+## Added
+- The Shadowdancer's Hide in Plain Sight ability now works correctly (** requires StickLuaFunctions v0.8.1-Alpha **)
+- Mage kit specialization now works correctly (** requires StickLuaFunctions v0.8.1-Alpha **)
+- Kit usability restrictions, including item restrictions and opposition schools, now work correctly. Characters with multiple kits receive the restrictions from all of them
+
+## Notes
+- This version requires StickLuaFunctions v0.8.1-Alpha to function correctly
+
+
+v0.1.0-Alpha
+------------
+Requires StickLuaFunctions v0.8.x-Alpha.
+
+## Added
+- Each class in a multiclass combination can be assigned its own kit during character creation
+- Multiclass characters with kits display the name of each kit correctly on the character record
+- Multiclass characters with kits receive the CLAB abilities of all their kits
+- Characters are subject to the alignment restrictions of all their kits
+- Multiclass characters with kits receive kit-specific adjustments to weapon proficiency limits:
+  - If a kit has the same proficiency limit as its base class, no additional adjustment is made
+  - If a kit has a different proficiency limit from its base class:
+    - If the kit's proficiency limit is 0, the corresponding limit is set to 0 regardless of the other kits
+    - Otherwise, the corresponding limit is set to the highest value among all qualifying kits
+- Multiclass characters with thief kits receive thief skill points according to their kit features
+
+## Notes
+- During character creation, some kit names may not be displayed (for example, after selecting Kensai/Swashbuckler, the panel may show Fighter/Thief). This does not affect the character record or the actual effects after starting the game
+- Mage specialization and opposition-school restrictions work correctly only when the mage kit is selected first
+- Hide in Plain Sight works correctly only when Shadowdancer is selected first
+- Only the item restrictions of the first selected kit take effect
+- Scripts and IDS recognize only the first selected kit
