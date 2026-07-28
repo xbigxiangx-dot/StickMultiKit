@@ -27,7 +27,7 @@ StickMultiKit 是一个基于 EEex 的 Infinity Engine 增强版游戏模组，�
 
 ### 更新记录
 
-参见[中文更新记录](Changelog.txt)或 [English Changelog](Changelog_en.txt)。
+[更新记录](Changelog.txt)
 
 ### 许可证
 
@@ -58,7 +58,7 @@ This repository includes only the `0.3.x` series:
 
 ### Changelog
 
-See the [English changelog](Changelog_en.txt) or the [Chinese changelog](Changelog.txt).
+[Changelog](Changelog_en.txt)
 
 ### License
 
