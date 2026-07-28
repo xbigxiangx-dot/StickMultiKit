@@ -4,19 +4,12 @@
 
 ## 简体中文
 
-StickMultiKit 是一个基于 EEex 的 Infinity Engine 增强版游戏模组，让兼职角色可以拥有并正确应用多个职业宗派。
+StickMultiKit 是一个基于 EEex 的 BG(2)EE 模组，让兼职角色可以拥有并正确应用多个职业宗派。
 
 ### 要求
 
 - EEex
 - StickLuaFunctions `v0.8.1-Alpha`
-
-### 收录版本
-
-本仓库仅收录 `0.3.x` 系列：
-
-- `StickMultiKit_v0.3.0-Alpha`
-- `StickMultiKit_v0.3.1-Alpha`
 
 ### 安装
 
@@ -35,19 +28,12 @@ StickMultiKit 是一个基于 EEex 的 Infinity Engine 增强版游戏模组，�
 
 ## English
 
-StickMultiKit is an EEex-based mod for Infinity Engine Enhanced Edition games. It allows multiclass characters to use multiple kits and correctly applies their features.
+StickMultiKit is an EEex-based mod for BG(2)EE. It allows multiclass characters to use multiple kits and correctly applies their features.
 
 ### Requirements
 
 - EEex
 - StickLuaFunctions `v0.8.1-Alpha`
-
-### Included Versions
-
-This repository includes only the `0.3.x` series:
-
-- `StickMultiKit_v0.3.0-Alpha`
-- `StickMultiKit_v0.3.1-Alpha`
 
 ### Installation
 
