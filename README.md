@@ -4,16 +4,15 @@
 
 ## 简体中文
 
-StickMultiKit 是一个基于 EEex 的 BG(2)EE 模组，让兼职角色可以拥有并正确应用多个职业宗派。
+StickMultiKit 是一个基于 EEex 的 BG(2)EE 模组，允许兼职或转职角色拥有多个宗派。
 
 ### 要求
 
-- EEex
-- StickLuaFunctions `v0.8.1-Alpha`
+- StickLuaFunctions（通常要求最新版本）
 
 ### 安装
 
-1. 安装所需版本的 EEex 和 StickLuaFunctions。
+1. 安装最新版本的 StickLuaFunctions。
 2. 将所需 StickMultiKit 版本目录中的文件复制到游戏根目录。
 3. 运行 `Setup-StickMultiKit.exe`。
 4. 按照 WeiDU 安装程序的提示完成安装。
@@ -28,16 +27,15 @@ StickMultiKit 是一个基于 EEex 的 BG(2)EE 模组，让兼职角色可以拥
 
 ## English
 
-StickMultiKit is an EEex-based mod for BG(2)EE. It allows multiclass characters to use multiple kits and correctly applies their features.
+StickMultiKit is an EEex-based mod for BG(2)EE that allows multiclass or dual-class characters to have multiple kits.
 
 ### Requirements
 
-- EEex
-- StickLuaFunctions `v0.8.1-Alpha`
+- StickLuaFunctions (the latest version is generally required)
 
 ### Installation
 
-1. Install the required versions of EEex and StickLuaFunctions.
+1. Install the latest version of StickLuaFunctions.
 2. Copy the contents of the desired StickMultiKit version directory into the game root directory.
 3. Run `Setup-StickMultiKit.exe`.
 4. Follow the prompts in the WeiDU installer.
