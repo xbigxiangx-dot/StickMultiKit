@@ -12,6 +12,10 @@ StickMultiKit 是一个基于 EEex 的 BG(2)EE 模组，允许兼职或转职角
 
 - StickLuaFunctions（通常要求最新版本）
 
+### 最新版本：v0.3.2-Alpha
+
+[下载 v0.3.2-Alpha](https://github.com/xbigxiangx-dot/StickMultiKit/releases/tag/v0.3.2-Alpha)
+
 ### 安装
 
 1. 安装最新版本的 StickLuaFunctions。
@@ -36,6 +40,10 @@ StickMultiKit is an EEex-based mod for BG(2)EE that allows multiclass or dual-cl
 ### Requirements
 
 - StickLuaFunctions (the latest version is generally required)
+
+### Latest Release: v0.3.2-Alpha
+
+[Download v0.3.2-Alpha](https://github.com/xbigxiangx-dot/StickMultiKit/releases/tag/v0.3.2-Alpha)
 
 ### Installation
 
