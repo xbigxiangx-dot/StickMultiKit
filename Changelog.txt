@@ -1,5 +1,14 @@
 # StickMultiKit Changelog
 
+v0.3.2-Alpha
+------------
+需要 StickLuaFunctions v0.9.x-Alpha。
+
+## 修正
+- 修复脚本不能正确识别宗派的问题
+- 修复一个无限弹出字符串的问题
+
+
 v0.3.1-Alpha
 ------------
 需要 StickLuaFunctions v0.8.1-Alpha。
