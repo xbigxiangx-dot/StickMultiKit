@@ -1,5 +1,16 @@
 # StickMultiKit Changelog
 
+v0.4.0-Alpha
+------------
+需要 StickLuaFunctions v0.9.x-Alpha。
+
+## 新增
+- 创建兼职角色时属性最小值受所有宗派决定
+
+## 修正
+- 修复转职后人物属性重新随机的问题
+
+
 v0.3.2-Alpha
 ------------
 需要 StickLuaFunctions v0.9.x-Alpha。

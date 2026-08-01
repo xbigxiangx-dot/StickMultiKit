@@ -1,5 +1,16 @@
 # StickMultiKit Changelog
 
+v0.4.0-Alpha
+------------
+Requires StickLuaFunctions v0.9.x-Alpha.
+
+## Added
+- During multiclass character creation, minimum ability-score requirements are now determined by all selected kits
+
+## Fixed
+- Fixed an issue where a character's ability scores were rerolled after dual-classing
+
+
 v0.3.2-Alpha
 ------------
 Requires StickLuaFunctions v0.9.x-Alpha.
