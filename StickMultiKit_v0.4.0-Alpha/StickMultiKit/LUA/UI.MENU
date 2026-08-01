@@ -1,0 +1,80 @@
+
+menu
+{
+	name 'ST_DUALCLASS_KIT'
+	align center center
+	ignoreesc
+	onopen "ST_DualClassFilterKitList()"
+	label
+	
+	{
+		area 0 159 1024 609
+		mosaic GUISMF
+	}
+	label
+	{
+		area 22 166 334 44
+		text "CLASS_KIT_TITLE"
+		text style "title"
+	}
+	list
+	{
+		column
+		{
+			width 100
+			label
+			{
+				area 0 0 340 44
+				text lua "Infinity_FetchString(chargen.kit[rowNumber].name)"
+				text style "list"
+				pad 8 0 0 0
+				text lower
+				
+			}
+		}
+		action "
+			if chargen.kit[currentChargenKit] then
+				createCharScreen:OnKitSelectButtonClick(chargen.kit[currentChargenKit].id)
+			end
+			"
+			
+		rowheight 44
+		area 26 222 336 382
+		table "chargen.kit"
+		var currentChargenKit
+		scrollbar	'GUISCRC'
+		scrollbar	'GUISCRC'
+	}
+	text
+	{
+		area 414 182 574 414
+		text lua "kitOrGeneralHelp()"
+		text style "normal"
+		scrollbar	'GUISCRC'
+	}
+	button
+	{
+		on escape
+		area 194 718 232 44
+		bam GUIOSTUL
+		text "BACK_BUTTON"
+		text style "button"
+		clickable 0
+	}
+	button
+	{
+		on return
+		area 438 718 206 44
+		bam GUIOSTUM
+		text "DONE_BUTTON"
+		text style "button"
+		clickable lua "createCharScreen:IsDoneButtonClickable()"
+		action "
+			if chargen.kit[currentChargenKit] then
+				ST_DualClassSelectKit(chargen.kit[currentChargenKit].id)
+			end
+			Infinity_PopMenu('ST_DUALCLASS_KIT')"
+	}
+
+}
+
