@@ -6,6 +6,7 @@ Requires StickLuaFunctions v0.9.x-Alpha.
 
 ## Added
 - During multiclass character creation, minimum ability-score requirements are now determined by all selected kits
+- During dual-classing, kits whose ability-score requirements are not met can no longer be selected
 
 ## Fixed
 - Fixed an issue where a character's ability scores were rerolled after dual-classing
