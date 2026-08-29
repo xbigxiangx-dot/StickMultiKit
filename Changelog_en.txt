@@ -1,5 +1,24 @@
 # StickMultiKit Changelog
 
+v0.5.0-Alpha
+------------
+Requires StickLuaFunctions v0.11.x-Alpha.
+
+## Added
+- Added support for game version 2.7
+
+## Fixed
+- Fixed an issue where a mage kit did not correctly determine the available spell levels and memorization slots when creating a multiclass character that included a mage
+
+
+v0.4.1-Alpha
+------------
+Requires StickLuaFunctions v0.9.x-Alpha.
+
+## Fixed
+- Fixed a crash when returning to the main menu after dual-classing and then creating a new character
+
+
 v0.4.0-Alpha
 ------------
 Requires StickLuaFunctions v0.9.x-Alpha.
