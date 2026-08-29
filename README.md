@@ -6,15 +6,15 @@
 
 StickMultiKit is an EEex-based mod for BG(2)EE that allows multiclass or dual-class characters to have multiple kits.
 
-> **Compatibility notice:** Game version 2.7 is not supported.
+> **Compatibility:** Game versions 2.6 and 2.7 are supported.
 
 ### Requirements
 
 - StickLuaFunctions (the latest version is generally required)
 
-### Latest Release: v0.4.0-Alpha
+### Latest Release: v0.5.0-Alpha
 
-[Download v0.4.0-Alpha](https://github.com/xbigxiangx-dot/StickMultiKit/releases/tag/v0.4.0-Alpha)
+[Download v0.5.0-Alpha](https://github.com/xbigxiangx-dot/StickMultiKit/releases/tag/v0.5.0-Alpha)
 
 ### Installation
 
@@ -35,15 +35,15 @@ This project is licensed under the [MIT License](LICENSE).
 
 StickMultiKit 是一个基于 EEex 的 BG(2)EE 模组，允许兼职或转职角色拥有多个宗派。
 
-> **兼容性说明：** 本项目不支持游戏版本 2.7。
+> **兼容性：** 支持游戏版本 2.6 和 2.7。
 
 ### 要求
 
 - StickLuaFunctions（通常要求最新版本）
 
-### 最新版本：v0.4.0-Alpha
+### 最新版本：v0.5.0-Alpha
 
-[下载 v0.4.0-Alpha](https://github.com/xbigxiangx-dot/StickMultiKit/releases/tag/v0.4.0-Alpha)
+[下载 v0.5.0-Alpha](https://github.com/xbigxiangx-dot/StickMultiKit/releases/tag/v0.5.0-Alpha)
 
 ### 安装
 
